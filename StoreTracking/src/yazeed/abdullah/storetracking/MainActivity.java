@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
 					.add(R.id.container, new PlaceholderFragment()).commit();
 		}
 		
-		map = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
+	//	map = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
 		
 		
 	}
